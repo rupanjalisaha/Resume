@@ -1,0 +1,66 @@
+.Contact{
+    width:100vw;
+    height:100vh;
+}
+#contact_form{
+    background-color: #040439;
+}
+#contact_form>h2{
+    display: flex;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+#contact_form>h2>input{
+    width:600px;
+}
+.Contact>#contact_form>#button:active{
+    background-color:#f04b82;
+}
+#contact_form>#button{
+    text-align: center;
+    background-color: #040439;
+    padding:10px;
+    width:150px;
+    height: 50px;
+    color:gold;
+    margin-left: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Contact>h1{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:#040439;
+}
+.Contact>h1:hover{
+    text-decoration: underline;
+}
+#contact_form>h1{
+    font-size: 36px;
+    animation: glow 2s infinite;
+    font-family:'Times New Roman', Times, serif;
+}
+@keyframes glow {
+    10%{
+        opacity:0.5;
+        text-shadow: 1px 1px #ef769e;
+    }
+    40%{
+        opacity:1;
+        text-shadow:2px 2px #f04b82;
+    }
+    70%{
+        opacity: 1.5;
+        text-shadow: 2px 1px#faafc8;
+    }
+    100%{
+        opacity:1;
+        text-shadow:2px 2px #f1266a;
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,35 @@
+
+#Navbar-header::first-letter{
+    font-size: 54px;
+    font-family:'Times New Roman', Times, serif;
+}
+#Navbar-header{
+    font-size: 46px;
+    font-family:'Courier New', Courier, monospace;
+    animation: glow 3s ease-in-out infinite;
+}
+.Navbar{
+    width:100vw;
+}
+.courseName:active{
+    text-shadow: 2px 2px 3px #f1266a;
+    text-decoration: underline;
+}
+@keyframes glow {
+    10%{
+        opacity:0.5;
+        text-shadow: 2px 2px #ef769e;
+    }
+    40%{
+        opacity:1;
+        text-shadow:3px 5px #f04b82;
+    }
+    70%{
+        opacity: 1.5;
+        text-shadow: 2px 3px#faafc8;
+    }
+    100%{
+        opacity:1;
+        text-shadow:3px 4px #f1266a;
+    }
+}

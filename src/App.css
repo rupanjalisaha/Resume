@@ -1,0 +1,323 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-navigations/styles/material.css";
+*{
+    margin-bottom: 10px;
+}
+::-webkit-scrollbar{
+    background: rgb(167, 167, 167);
+    width:10px;
+    height: 5px;
+}
+::-webkit-scrollbar:hover{
+    width:12px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(167, 167, 167);
+    border-radius: 10px;  
+    padding: 5px;
+    width:20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #f04b82;
+    width:7px;
+    border-radius: 50px;
+    padding: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#f1266a;
+}
+::-webkit-scrollbar-button{
+    background-size:100%;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-button:vertical:start {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH9xszGHsuMwz2N6gWN_jPFS0U9lw4ODJVpQ&usqp=CAU);
+    background-repeat: no-repeat;
+    transform: scale(2);
+    padding:5px;
+    background-size:15px;
+}
+
+::-webkit-scrollbar-button:vertical:end {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/6188/6188621.png);
+    transform: scale(2);
+    background-repeat: no-repeat;
+    padding: 5px;
+    background-size: 15px;
+}
+#profile_section>#profile{
+    display: flex;
+    margin-left:30px;
+    margin-right: 100px;
+    justify-content: space-around;
+    gap:20px;
+}
+#profile_section{
+    background-color: #040439;
+    width:100vw;
+}
+.body{
+    margin: 1rem;
+    background-color: white;
+    width: 100vw;
+}
+.Navbar{
+    display:flex;
+    background-color: #040439;
+    padding: 5px;
+    justify-content:space-between;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.Navbar-header{
+    font-size: 48px;
+    color:aliceblue;
+    top:20px;
+}
+#file{
+    float: right;
+}
+#Analysis{
+    display:flex;
+    background-color: #040439;
+    color:white;
+    text-align: center;
+    width:100vw;
+    height:100vh;
+    padding: 20px;
+    justify-content: space-around;
+}
+#Analysis>ul{
+    width:600px;
+}
+#Analysis>ul>li>#file{
+    translate: 0px -5px;
+}
+#Analysis>ul>li>h2{
+    width: 600px;
+    white-space: wrap;
+}
+#Analysis>ul>li>#file{
+    padding: 15px;
+    translate:0px 6px;
+}
+.navbar-menu{
+    display: flex;
+    list-style-type: none;
+    gap:10px;
+    align-items: center;
+    font-size: 16px;
+}
+#Analysis>#an>img{
+    padding: 5px;
+}
+.navbar-menu li a{
+    text-decoration: none;
+    padding: 5px;
+    color:aliceblue;
+    background-color: transparent;
+    color:white;
+    border-radius:10px;
+    font-size: 24px;
+}
+.courseName{
+    font-size: 18px;
+    background-color: transparent;
+    color:white;
+    border-radius:10px;
+    padding:5px;
+}
+.CourseImage{
+    margin-left: 20rem;
+    margin-top:3rem;
+}
+h2{
+    font-size:16px;
+    margin:10px;
+    line-height:1cm;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:aliceblue;
+    font-weight: bold;
+}
+ul>li{
+    list-style-type: none;
+    white-space: nowrap;
+}
+ul>li>p{
+    display: inline-block;
+}
+#Java>h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+#webDev>h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+h3{
+    margin:10px;
+    font-size: 18px;
+}
+p{
+    text-indent: 1cm;
+    font-size: 14px;
+    color:gold;
+}
+img{
+    justify-content: center;
+    border:black 5px solid;
+}
+.ImageContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -100px;
+}
+caption{
+    color:red;
+}
+select{
+    border-radius: 5px;
+    margin:20px;
+    padding: 5px;
+}
+option{
+    max-width: 900px;
+}
+.answer-list{
+    display: flex;
+    width: 50px;
+}
+.PracticeSection{
+    border:10px solid grey;
+    width:auto;
+    height:500px;
+    overflow-y: scroll;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(240, 177, 177);
+}
+#Java{
+    background-color: #040439;
+    width:100vw;
+    display: flex;
+}
+#Java>div{
+    margin: 20px auto;
+}
+#webDev>#container{
+    margin-left: 20px;
+}
+#first{
+    display: flex;
+}
+#second{
+    display: flex;
+}
+#webDev{
+    width:100vw;
+    background-color: #040439;
+    text-align: center;
+    display: flex;
+}
+#webDev>ul{
+    width:500px;
+}
+#webDev>ul>li>p{
+    translate:0px 12px;
+}
+#Java>ul{
+    width:500px;
+}
+#Java>ul>li>p{
+    translate:0px 15px;
+}
+#webDev>ul>li>h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: overline;
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+#Analysis>ul>li>h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: overline;
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#Java>ul>li>h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: overline;
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+#Java>ul>li>#file{
+    margin-left: 20px;
+    padding:15px;
+    translate: 0px 20px;
+}
+#webDev>ul>li>#file{
+    margin-left: 20px;
+    padding:15px;
+    translate: 0px 15px;
+}
+#webDev>div{
+    margin-top: 50px;
+}
+#Java>div>h2:hover{
+    text-decoration: underline;
+}
+#webDev>div>h2:hover{
+    text-decoration: underline;
+}
+h1{
+    font-size: 16px;
+    text-align: center;
+    color:aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Register{
+    width:500px;
+    height:500px;
+    background-color: aliceblue;
+    border:gray 3px solid;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 1 rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+    margin-left:30rem;
+}
+.Register>input{
+    border-radius: 10px;
+    border: 2px solid black;
+    outline:none;
+    width:450px;
+    color:black;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+}
+#an>img{
+    margin-top: 40px;
+}
+.button{
+    background-color: black;
+    color:gold;
+    width: 450px ;
+    padding:10px;
+    margin: 0.5rem 0;
+    margin-left: 1.5rem;
+    text-align: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}

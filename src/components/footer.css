@@ -1,0 +1,21 @@
+
+h2{
+    color: #fff;
+    background-color: #040439;
+    text-align: center;
+    animation:move 1s infinite;
+}
+@keyframes move {
+    10%{
+        transition: 10px 0px;
+    }
+    40%{
+        transition: 10px 0px;
+    }
+    70%{
+        transition: 10px 0px;
+    }
+    100%{
+        transition: 10px 0px;
+    }
+}
